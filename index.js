@@ -2,7 +2,7 @@ const readlineSync = require('readline-sync');
 const chalk = require('chalk');
 var score = 0;
 
-const username = readlineSync.question("Tell us your name please\n");
+const username = readlineSync.question("Tell us your Name please\n");
 
 console.log("Welcome "+username);
 
